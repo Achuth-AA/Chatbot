@@ -1,0 +1,74 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":[
+                "Hi",
+                "Hello",
+                "How are you?",
+                "Hey",
+                "Is any one there?"
+            ],
+            "responses":[
+                "Good Morning Welcome to AA Studioz",
+                "good morning sir how can i help you?",
+                "Hey hai",
+                "good morning may i know your name ?"
+            ]
+        },
+        {
+            "tag":"goodbye",
+            "patterns":[
+                "thank you",
+                "chat you later",
+                "bye",
+                "thanks alot",
+                "see you later"
+            ],
+            "responses":[
+                "Bye have a nice day",
+                "have a great day",
+                "its my pleasure",
+                "i'm always there for you"
+            ]
+        },
+        {
+            "tag":"angry",
+            "patterns":[
+                "i am very angry on you",
+                "this is ridiculous",
+                "i am not expecting this from you"
+            ],
+            "responses":[
+                "i am really sorry",
+                "i will never make this happen",
+                "i am extremely sorry"
+            ]
+        },
+        {
+            "tag":"sad",
+            "patterns":[
+                "i am very sad",
+                "today is the bad day to me",
+                "this is the worst day in my life",
+                "i'm in mood off right now",
+                "i'm feeling very lonely"
+            ],
+            "responses":[
+                "i will make you happy",
+                "i will tell a joke"
+            ]
+        },
+        {
+            "tag":"about",
+            "patterns":[
+                "founder of aa studioz ?",
+                "main goal of aa studioz?",
+                "main theme of aa studioz?"
+            ],
+            "responses":[
+                "Achuth Dintakurthi the founder of aa studioz and the main theme is to build the AI powered apps"
+            ]
+        }
+    ]
+}
