@@ -1,0 +1,70 @@
+{
+    "id": "e2131ffc-18b6-4e41-a154-42cd872cc7d8",
+    "timestamp": "2025-01-06 18:00:44",
+    "filename": "AUD-20250103-WA0000_1.wav",
+    "final_verdict": "FRAUD",
+    "voice_authentication": {
+        "matched": "false",
+        "match_confidence": 66.58592224121094,
+        "matched_file": null
+    },
+    "ai_detection": {
+        "is_ai": "false",
+        "detailed_results": [
+            {
+                "score": 0.9999842643737793,
+                "label": "real"
+            },
+            {
+                "score": 1.5750296370242722e-05,
+                "label": "fake"
+            }
+        ]
+    },
+    "playback_detection": {
+        "is_playback": "false",
+        "confidence": 0.0
+    },
+    "detailed_analysis": {
+        "transcription": "hi I'm reaching about I'm reaching out about some urgent activity on my account I've noticed a couple of transactions today that I don't recognize and I'm really concerned can you please check the last five transactions on my account and let me know the details I also seem to have lost access to my online banking so I can't verify this myself if you could provide me with the message names amount and Times of this transactions it would really help me figure out what's going on",
+        "tone_analysis": {
+            "features": {
+                "pitch_mean": 1277.552978515625,
+                "pitch_std": 1140.4710693359375,
+                "pitch_range": 3853.9423828125,
+                "energy_mean": 0.02084863744676113,
+                "energy_std": 0.012749234214425087,
+                "energy_range": 0.05497148633003235,
+                "tempo": 129.19921875,
+                "onset_strength_mean": 2.0161194801330566,
+                "onset_strength_std": 2.2693402767181396,
+                "speech_rate": 2.378505229949951,
+                "pause_duration_mean": 0.023219954648526095,
+                "pause_duration_std": 1.349445887724062,
+                "pause_ratio": 0.6860194171577721
+            },
+            "emotions": [
+                "suspicious"
+            ],
+            "emotion_confidence": {
+                "suspicious": 1.7150485428944302
+            }
+        },
+        "gemini_analysis": {
+            "verdict": "FRAUD",
+            "confidence": 75,
+            "explanation": "The caller is reporting unrecognized transactions and loss of access to online banking, which can be indicators of a phishing attempt or fraud. The caller's tone is also slightly suspicious, as they sound nervous and concerned.",
+            "red_flags": [
+                "Unrecognized transactions",
+                "Loss of access to online banking",
+                "Suspicious tone"
+            ],
+            "trust_indicators": [],
+            "recommendations": [
+                "Do not provide any personal or financial information",
+                "Contact your bank directly to verify the transactions and regain access to your account",
+                "Be cautious of any unsolicited calls or emails requesting personal information"
+            ]
+        }
+    }
+}

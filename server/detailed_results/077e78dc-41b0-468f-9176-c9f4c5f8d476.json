@@ -1,0 +1,69 @@
+{
+    "id": "077e78dc-41b0-468f-9176-c9f4c5f8d476",
+    "timestamp": "2025-01-09 19:30:29",
+    "filename": "fraud.wav",
+    "final_verdict": "FRAUD",
+    "voice_authentication": {
+        "matched": "true",
+        "match_confidence": 96.71441650390625,
+        "matched_file": "PTT-20241226-WA0007.wav"
+    },
+    "ai_detection": {
+        "is_ai": "true",
+        "detailed_results": [
+            {
+                "score": 0.9957529306411743,
+                "label": "fake"
+            },
+            {
+                "score": 0.004247117321938276,
+                "label": "real"
+            }
+        ]
+    },
+    "playback_detection": {
+        "is_playback": "false",
+        "confidence": 0.0
+    },
+    "detailed_analysis": {
+        "transcription": "hello I'm calling regarding my account ending in 4568 I urgently need help with the transaction I attempted earlier today it seems to have failed I was trying to transfer $50 but I didn't get any confirmation could you please verify the transaction went through or provide me with the authorization details if it didn't process I need you to reinitiate for initiated for me right away and I'm unable to access my registered email or phone right now due to some technical issues so I can't receive what it is can we bypass that step please let me know how soon you can assist it's quite urgent thank you",
+        "tone_analysis": {
+            "features": {
+                "pitch_mean": 1233.006591796875,
+                "pitch_std": 1054.90673828125,
+                "pitch_range": 3853.54248046875,
+                "energy_mean": 0.0343392938375473,
+                "energy_std": 0.04334696754813194,
+                "energy_range": 0.7316692471504211,
+                "tempo": 95.703125,
+                "onset_strength_mean": 1.4033329486846924,
+                "onset_strength_std": 1.7927721738815308,
+                "speech_rate": 2.1067404747009277,
+                "pause_duration_mean": -0.0014980615902274892,
+                "pause_duration_std": 0.08106852721361431,
+                "pause_ratio": 0.7214760811660591
+            },
+            "emotions": [
+                "suspicious"
+            ],
+            "emotion_confidence": {
+                "suspicious": 1.8036902029151476
+            }
+        },
+        "gemini_analysis": {
+            "verdict": "FRAUD",
+            "confidence": 90,
+            "explanation": "The caller's request to bypass the security step of receiving a verification code on their registered email or phone due to technical issues raises suspicion. Fraudsters often attempt to bypass security measures to gain unauthorized access to accounts.",
+            "red_flags": [
+                "Request to bypass security verification",
+                "Urgency",
+                "Inability to access registered contact information"
+            ],
+            "trust_indicators": [],
+            "recommendations": [
+                "Do not proceed with the caller's request.",
+                "Contact the financial institution directly through a verified channel to report the suspicious activity."
+            ]
+        }
+    }
+}

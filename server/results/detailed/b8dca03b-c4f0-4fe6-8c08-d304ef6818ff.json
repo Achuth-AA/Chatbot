@@ -1,0 +1,66 @@
+{
+    "id": "b8dca03b-c4f0-4fe6-8c08-d304ef6818ff",
+    "timestamp": "2025-01-06 13:42:31",
+    "filename": "AI_3.wav",
+    "final_verdict": "FRAUD",
+    "voice_authentication": {
+        "error": "[Errno 2] No such file or directory: '/workspace/Chatbot/server/backendd'"
+    },
+    "ai_detection": {
+        "is_ai": true,
+        "detailed_results": [
+            {
+                "score": 0.9829685091972351,
+                "label": "fake"
+            },
+            {
+                "score": 0.01703149452805519,
+                "label": "real"
+            }
+        ]
+    },
+    "playback_detection": {
+        "error": "name 'extract_features' is not defined"
+    },
+    "detailed_analysis": {
+        "transcription": "I'd like to apply for a personal loan using my account as collateral I've been a customer for years and I need this loan processed immediately can you please proceed without the usual paperwork since I am in a hurry",
+        "tone_analysis": {
+            "features": {
+                "pitch_mean": 1409.7227783203125,
+                "pitch_std": 1089.6224365234375,
+                "pitch_range": 3852.89697265625,
+                "energy_mean": 0.046143267303705215,
+                "energy_std": 0.037536509335041046,
+                "energy_range": 0.19084641337394714,
+                "tempo": 129.19921875,
+                "onset_strength_mean": 2.6148452758789062,
+                "onset_strength_std": 3.4987590312957764,
+                "speech_rate": 3.5281171798706055,
+                "pause_duration_mean": -7.93016446160826e-18,
+                "pause_duration_std": 0.3605062432336066,
+                "pause_ratio": 1.5798884209909232
+            },
+            "emotions": [
+                "suspicious"
+            ],
+            "emotion_confidence": {
+                "suspicious": 3.9497210524773076
+            }
+        },
+        "gemini_analysis": {
+            "verdict": "FRAUD",
+            "confidence": 90,
+            "explanation": "The caller is requesting to process the loan immediately without the usual paperwork, which is a common tactic used by scammers to avoid detection and accountability. Additionally, the caller claims to be in a hurry, creating a sense of urgency and pressure to make a quick decision.",
+            "red_flags": [
+                "Requesting to process the loan immediately without the usual paperwork",
+                "Claiming to be in a hurry"
+            ],
+            "trust_indicators": [],
+            "recommendations": [
+                "Do not proceed with the loan application.",
+                "Report the suspicious activity to the bank or financial institution.",
+                "Be cautious of any unsolicited phone calls or emails requesting personal or financial information."
+            ]
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "id": "9d307f64-3fb5-4b63-9a4c-3a9febbd6dd3",
+    "timestamp": "2025-01-06 15:51:52",
+    "filename": "AI_2.wav",
+    "final_verdict": "FRAUD",
+    "voice_authentication": {
+        "matched": "false",
+        "match_confidence": 57.820613861083984,
+        "matched_file": null
+    },
+    "ai_detection": {
+        "is_ai": "true",
+        "detailed_results": [
+            {
+                "score": 0.9997889399528503,
+                "label": "fake"
+            },
+            {
+                "score": 0.00021112871763762087,
+                "label": "real"
+            }
+        ]
+    },
+    "playback_detection": {
+        "is_playback": "false",
+        "confidence": 0.0
+    },
+    "detailed_analysis": {
+        "transcription": "I'm going to update my contact information I'm no longer using the old email address or phone number linked to my account please update my account with the new details and send me the verification code to my new email thank you for your quick action",
+        "tone_analysis": {
+            "features": {
+                "pitch_mean": 1512.5452880859375,
+                "pitch_std": 1131.2176513671875,
+                "pitch_range": 3854.235595703125,
+                "energy_mean": 0.02906501106917858,
+                "energy_std": 0.01844898983836174,
+                "energy_range": 0.13000746071338654,
+                "tempo": 80.74951171875,
+                "onset_strength_mean": 3.0462558269500732,
+                "onset_strength_std": 4.02016019821167,
+                "speech_rate": 3.6912713050842285,
+                "pause_duration_mean": 0.0011609977324263225,
+                "pause_duration_std": 0.5337799922111581,
+                "pause_ratio": 1.3176465901394903
+            },
+            "emotions": [
+                "suspicious"
+            ],
+            "emotion_confidence": {
+                "suspicious": 3.2941164753487255
+            }
+        },
+        "gemini_analysis": {
+            "verdict": "GENUINE",
+            "confidence": 80,
+            "explanation": "The caller is requesting to update their contact information, which is a common request. There are no clear red flags or suspicious indicators in the conversation.",
+            "red_flags": [],
+            "trust_indicators": [],
+            "recommendations": []
+        }
+    }
+}

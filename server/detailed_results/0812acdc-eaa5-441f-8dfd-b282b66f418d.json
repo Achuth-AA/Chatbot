@@ -1,0 +1,70 @@
+{
+    "id": "0812acdc-eaa5-441f-8dfd-b282b66f418d",
+    "timestamp": "2025-01-06 18:55:20",
+    "filename": "AUD-20250103-WA0001_1.wav",
+    "final_verdict": "FRAUD",
+    "voice_authentication": {
+        "matched": "false",
+        "match_confidence": 67.24488067626953,
+        "matched_file": null
+    },
+    "ai_detection": {
+        "is_ai": "false",
+        "detailed_results": [
+            {
+                "score": 0.999983549118042,
+                "label": "real"
+            },
+            {
+                "score": 1.6446445442852564e-05,
+                "label": "fake"
+            }
+        ]
+    },
+    "playback_detection": {
+        "is_playback": "false",
+        "confidence": 0.0
+    },
+    "detailed_analysis": {
+        "transcription": "hi I'm from my address I just got a notice saying that your account is linked to suspicious activity related to your taxes I need to verify your banking details on the last five transactions on your account so I can clear things up immediately please provide me with the details for verification",
+        "tone_analysis": {
+            "features": {
+                "pitch_mean": 1357.1253662109375,
+                "pitch_std": 1200.8277587890625,
+                "pitch_range": 3853.73779296875,
+                "energy_mean": 0.019238390028476715,
+                "energy_std": 0.014077393338084221,
+                "energy_range": 0.05095396190881729,
+                "tempo": 161.4990234375,
+                "onset_strength_mean": 1.9842123985290527,
+                "onset_strength_std": 2.1384148597717285,
+                "speech_rate": 2.147379159927368,
+                "pause_duration_mean": 0.005358451072736803,
+                "pause_duration_std": 1.3038261431665283,
+                "pause_ratio": 0.8095116968802201
+            },
+            "emotions": [
+                "suspicious"
+            ],
+            "emotion_confidence": {
+                "suspicious": 2.02377924220055
+            }
+        },
+        "gemini_analysis": {
+            "verdict": "FRAUD",
+            "confidence": 95,
+            "explanation": "The caller claims to be from the caller's bank and states that the caller's account is linked to suspicious activity related to taxes. They then request the caller to provide banking details for the last five transactions on the caller's account for verification. This is a common tactic used by scammers to obtain personal and financial information from unsuspecting individuals.",
+            "red_flags": [
+                "Requesting personal and financial information over the phone",
+                "Claiming that the caller's account is linked to suspicious activity",
+                "Urgency to provide the information immediately"
+            ],
+            "trust_indicators": [],
+            "recommendations": [
+                "Never provide personal or financial information over the phone to someone you don't know or trust.",
+                "If you are unsure about the legitimacy of a call, hang up and call the company or organization directly using the number on their official website or statement.",
+                "Report the incident to your bank and the authorities."
+            ]
+        }
+    }
+}

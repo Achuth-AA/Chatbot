@@ -1,0 +1,66 @@
+{
+    "id": "817abd26-cde8-44d8-ba12-7f3ff99a9173",
+    "timestamp": "2025-01-09 23:45:45",
+    "filename": "AUD-20250106-WA0006_1.wav",
+    "final_verdict": "FRAUD",
+    "voice_authentication": {
+        "matched": "false",
+        "match_confidence": 59.293312072753906,
+        "matched_file": null
+    },
+    "ai_detection": {
+        "is_ai": "false",
+        "detailed_results": [
+            {
+                "score": 0.9986732006072998,
+                "label": "real"
+            },
+            {
+                "score": 0.001326782046817243,
+                "label": "fake"
+            }
+        ]
+    },
+    "playback_detection": {
+        "is_playback": "true",
+        "confidence": 1.0
+    },
+    "detailed_analysis": {
+        "transcription": "I'm calling about my phone ending in 2345 I noticed a decent transaction on my phone that I don't recognize and I would like to get more information about it can you please help me identify the transaction from December 28th which was for 3:50 I'm not sure what it was for and I want to make sure it wasn't another out front also could you please confirm my current balance I would really appreciate your help with this",
+        "tone_analysis": {
+            "features": {
+                "pitch_mean": 935.4324340820312,
+                "pitch_std": 780.086669921875,
+                "pitch_range": 3852.64794921875,
+                "energy_mean": 0.043247856199741364,
+                "energy_std": 0.0295563917607069,
+                "energy_range": 0.13172370195388794,
+                "tempo": 103.359375,
+                "onset_strength_mean": 1.6304731369018555,
+                "onset_strength_std": 1.6415174007415771,
+                "speech_rate": 2.2991714477539062,
+                "pause_duration_mean": 0.3320453514739229,
+                "pause_duration_std": 1.6031541664257536,
+                "pause_ratio": 0.4314853556485356
+            },
+            "emotions": [
+                "suspicious"
+            ],
+            "emotion_confidence": {
+                "suspicious": 1.078713389121339
+            }
+        },
+        "gemini_analysis": {
+            "verdict": "GENUINE",
+            "confidence": 80,
+            "explanation": "The caller is inquiring about a specific transaction on their phone bill, which is a common reason for contacting customer service. The caller also provides their phone number and the date of the transaction, which indicates that they are the account holder and are familiar with their account details. Additionally, the caller is not asking for any personal or financial information, which is a common tactic used by scammers.",
+            "red_flags": [],
+            "trust_indicators": [
+                "Caller provides specific details about the transaction in question",
+                "Caller provides their phone number",
+                "Caller does not ask for any personal or financial information"
+            ],
+            "recommendations": []
+        }
+    }
+}

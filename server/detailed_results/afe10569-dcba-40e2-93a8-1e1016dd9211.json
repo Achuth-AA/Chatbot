@@ -1,0 +1,68 @@
+{
+    "id": "afe10569-dcba-40e2-93a8-1e1016dd9211",
+    "timestamp": "2025-01-09 23:50:12",
+    "filename": "AUD-20250106-WA0006_1.wav",
+    "final_verdict": "FRAUD",
+    "voice_authentication": {
+        "matched": "false",
+        "match_confidence": 59.293312072753906,
+        "matched_file": null
+    },
+    "ai_detection": {
+        "is_ai": "false",
+        "detailed_results": [
+            {
+                "score": 0.9986732006072998,
+                "label": "real"
+            },
+            {
+                "score": 0.001326782046817243,
+                "label": "fake"
+            }
+        ]
+    },
+    "playback_detection": {
+        "is_playback": "true",
+        "confidence": 1.0
+    },
+    "detailed_analysis": {
+        "transcription": "I'm calling about my phone ending in 2345 I noticed a decent transaction on my phone that I don't recognize and I would like to get more information about it can you please help me identify the transaction from December 28th which was for 3:50 I'm not sure what it was for and I want to make sure it wasn't another out front also could you please confirm my current balance I would really appreciate your help with this",
+        "tone_analysis": {
+            "features": {
+                "pitch_mean": 935.4324340820312,
+                "pitch_std": 780.086669921875,
+                "pitch_range": 3852.64794921875,
+                "energy_mean": 0.043247856199741364,
+                "energy_std": 0.0295563917607069,
+                "energy_range": 0.13172370195388794,
+                "tempo": 103.359375,
+                "onset_strength_mean": 1.6304731369018555,
+                "onset_strength_std": 1.6415174007415771,
+                "speech_rate": 2.2991714477539062,
+                "pause_duration_mean": 0.3320453514739229,
+                "pause_duration_std": 1.6031541664257536,
+                "pause_ratio": 0.4314853556485356
+            },
+            "emotions": [
+                "suspicious"
+            ],
+            "emotion_confidence": {
+                "suspicious": 1.078713389121339
+            }
+        },
+        "gemini_analysis": {
+            "verdict": "FRAUD",
+            "confidence": 85,
+            "explanation": "The caller is unsure about the transaction details, which is unusual for a genuine caller. The caller also requests to confirm the current balance, which is a common tactic used by scammers to gather personal information.",
+            "red_flags": [
+                "Caller unsure about transaction details",
+                "Request to confirm current balance"
+            ],
+            "trust_indicators": [],
+            "recommendations": [
+                "Do not provide any personal information",
+                "Report the call to the bank or phone carrier"
+            ]
+        }
+    }
+}

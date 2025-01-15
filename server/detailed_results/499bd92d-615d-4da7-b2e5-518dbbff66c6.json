@@ -1,0 +1,62 @@
+{
+    "id": "499bd92d-615d-4da7-b2e5-518dbbff66c6",
+    "timestamp": "2025-01-07 06:32:16",
+    "filename": "AI_3.wav",
+    "final_verdict": "FRAUD",
+    "voice_authentication": {
+        "matched": "false",
+        "match_confidence": 62.62644958496094,
+        "matched_file": null
+    },
+    "ai_detection": {
+        "is_ai": "true",
+        "detailed_results": [
+            {
+                "score": 0.9829685091972351,
+                "label": "fake"
+            },
+            {
+                "score": 0.01703149452805519,
+                "label": "real"
+            }
+        ]
+    },
+    "playback_detection": {
+        "is_playback": "false",
+        "confidence": 0.0
+    },
+    "detailed_analysis": {
+        "transcription": "I'd like to apply for a personal loan using my account as collateral I've been a customer for years and I need this loan processed immediately can you please proceed without the usual paperwork since I am in a hurry",
+        "tone_analysis": {
+            "features": {
+                "pitch_mean": 1409.7227783203125,
+                "pitch_std": 1089.6224365234375,
+                "pitch_range": 3852.89697265625,
+                "energy_mean": 0.046143267303705215,
+                "energy_std": 0.037536509335041046,
+                "energy_range": 0.19084641337394714,
+                "tempo": 129.19921875,
+                "onset_strength_mean": 2.6148452758789062,
+                "onset_strength_std": 3.4987590312957764,
+                "speech_rate": 3.5281171798706055,
+                "pause_duration_mean": -7.93016446160826e-18,
+                "pause_duration_std": 0.3605062432336066,
+                "pause_ratio": 1.5798884209909232
+            },
+            "emotions": [
+                "suspicious"
+            ],
+            "emotion_confidence": {
+                "suspicious": 3.9497210524773076
+            }
+        },
+        "gemini_analysis": {
+            "verdict": "UNKNOWN",
+            "confidence": 0,
+            "explanation": "```json\n{\n  \"verdict\": \"FRAUD\",\n  \"confidence\": 95,\n  \"explanation\": \"The caller is requesting to proceed with the loan application without the usual paperwork due to being in a hurry. This is a common tactic used by scammers to avoid providing documentation that could expose their fraudulent intentions.\",\n  \"red_flags\": [\n    \"Request to proceed without the usual paperwork\",\n    \"Sense of urgency created by the caller\"\n  ],\n  \"trust_indicators\": [],\n  \"recommendations\": [\n    \"Decline the loan application and report the caller to the appropriate authorities\",\n    \"Educate customers about common fraud tactics and how to protect themselves\"\n  ]\n}\n```",
+            "red_flags": [],
+            "trust_indicators": [],
+            "recommendations": []
+        }
+    }
+}

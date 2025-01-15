@@ -1,0 +1,68 @@
+{
+    "id": "e580d0e4-1863-4b3c-b6ba-cbe7c85b8cc1",
+    "timestamp": "2025-01-09 10:07:43",
+    "filename": "AUD-20250103-WA0001_1.wav",
+    "final_verdict": "FRAUD",
+    "voice_authentication": {
+        "matched": "false",
+        "match_confidence": 67.24488067626953,
+        "matched_file": null
+    },
+    "ai_detection": {
+        "is_ai": "false",
+        "detailed_results": [
+            {
+                "score": 0.999983549118042,
+                "label": "real"
+            },
+            {
+                "score": 1.6446445442852564e-05,
+                "label": "fake"
+            }
+        ]
+    },
+    "playback_detection": {
+        "is_playback": "true",
+        "confidence": 1.0
+    },
+    "detailed_analysis": {
+        "transcription": "hi I'm from my address I just got a notice saying that your account is linked to suspicious activity related to your taxes I need to verify your banking details on the last five transactions on your account so I can clear things up immediately please provide me with the details for verification",
+        "tone_analysis": {
+            "features": {
+                "pitch_mean": 1357.1253662109375,
+                "pitch_std": 1200.8277587890625,
+                "pitch_range": 3853.73779296875,
+                "energy_mean": 0.019238390028476715,
+                "energy_std": 0.014077393338084221,
+                "energy_range": 0.05095396190881729,
+                "tempo": 161.4990234375,
+                "onset_strength_mean": 1.9842123985290527,
+                "onset_strength_std": 2.1384148597717285,
+                "speech_rate": 2.147379159927368,
+                "pause_duration_mean": 0.005358451072736803,
+                "pause_duration_std": 1.3038261431665283,
+                "pause_ratio": 0.8095116968802201
+            },
+            "emotions": [
+                "suspicious"
+            ],
+            "emotion_confidence": {
+                "suspicious": 2.02377924220055
+            }
+        },
+        "gemini_analysis": {
+            "verdict": "FRAUD",
+            "confidence": 90,
+            "explanation": "The caller is requesting sensitive financial information, such as banking details and recent transactions. This is a common tactic used by scammers to gain access to victims' accounts and steal their money.",
+            "red_flags": [
+                "Requesting sensitive financial information",
+                "Sense of urgency"
+            ],
+            "trust_indicators": [],
+            "recommendations": [
+                "Do not provide any sensitive financial information to the caller",
+                "Hang up the phone and report the call to the authorities"
+            ]
+        }
+    }
+}

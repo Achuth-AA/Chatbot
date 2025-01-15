@@ -1,0 +1,69 @@
+{
+    "id": "0b3ac77f-76b6-4126-8d8c-76802c24361c",
+    "timestamp": "2025-01-06 18:08:38",
+    "filename": "AUD-20250106-WA0007_1.wav",
+    "final_verdict": "FRAUD",
+    "voice_authentication": {
+        "matched": "false",
+        "match_confidence": 61.135704040527344,
+        "matched_file": null
+    },
+    "ai_detection": {
+        "is_ai": "true",
+        "detailed_results": [
+            {
+                "score": 0.9881551265716553,
+                "label": "fake"
+            },
+            {
+                "score": 0.011844851076602936,
+                "label": "real"
+            }
+        ]
+    },
+    "playback_detection": {
+        "is_playback": "false",
+        "confidence": 0.0
+    },
+    "detailed_analysis": {
+        "transcription": "hello I'm calling because I lost my phone and I cannot receive the OTP I didn't really need to transfer funds to your friend's account to avoid a financial crisis please can you please help me process the transfer without the OTP I already verified my identity with you in the past and I mean it please could you please do that",
+        "tone_analysis": {
+            "features": {
+                "pitch_mean": 1192.149658203125,
+                "pitch_std": 950.5565795898438,
+                "pitch_range": 3853.052734375,
+                "energy_mean": 0.04911835119128227,
+                "energy_std": 0.034231483936309814,
+                "energy_range": 0.14090918004512787,
+                "tempo": 135.99917763157896,
+                "onset_strength_mean": 1.900978446006775,
+                "onset_strength_std": 2.050107955932617,
+                "speech_rate": 2.6979546546936035,
+                "pause_duration_mean": 0.0014512471655328957,
+                "pause_duration_std": 1.3102945711026865,
+                "pause_ratio": 0.8274907504702028
+            },
+            "emotions": [
+                "suspicious"
+            ],
+            "emotion_confidence": {
+                "suspicious": 2.068726876175507
+            }
+        },
+        "gemini_analysis": {
+            "verdict": "FRAUD",
+            "confidence": 90,
+            "explanation": "The caller claims to have lost their phone and cannot receive the OTP, but then asks the recipient to transfer funds to a friend's account to avoid a financial crisis. This is a common scam tactic, where the scammer tries to create a sense of urgency and pressure the recipient into taking action.",
+            "red_flags": [
+                "Caller claims to have lost their phone but asks for a transfer to a friend's account",
+                "Caller asks to process the transfer without the OTP"
+            ],
+            "trust_indicators": [],
+            "recommendations": [
+                "Do not send any money to the caller",
+                "Report the conversation to the authorities",
+                "Be cautious of any unsolicited calls or messages asking for money or personal information"
+            ]
+        }
+    }
+}

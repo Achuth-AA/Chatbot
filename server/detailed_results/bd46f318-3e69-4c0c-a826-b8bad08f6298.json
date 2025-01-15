@@ -1,0 +1,62 @@
+{
+    "id": "bd46f318-3e69-4c0c-a826-b8bad08f6298",
+    "timestamp": "2025-01-09 22:29:10",
+    "filename": "keerthi_bankcall.wav",
+    "final_verdict": "FRAUD",
+    "voice_authentication": {
+        "matched": "true",
+        "match_confidence": 94.98405456542969,
+        "matched_file": "PTT-20241226-WA0010.wav"
+    },
+    "ai_detection": {
+        "is_ai": "false",
+        "detailed_results": [
+            {
+                "score": 0.9999765157699585,
+                "label": "real"
+            },
+            {
+                "score": 2.34979233937338e-05,
+                "label": "fake"
+            }
+        ]
+    },
+    "playback_detection": {
+        "is_playback": "false",
+        "confidence": 0.0
+    },
+    "detailed_analysis": {
+        "transcription": "I am calling about an issue with my credit card bill I have been getting some strange charges and I need you to walk me through all recent transactions please provide me the transaction IDs Merchants names and amounts charged for all the transactions in the last 30 days I've lost track of my credit card so I can't look up the information for myself",
+        "tone_analysis": {
+            "features": {
+                "pitch_mean": 1261.642822265625,
+                "pitch_std": 1046.345458984375,
+                "pitch_range": 3853.3232421875,
+                "energy_mean": 0.03255580738186836,
+                "energy_std": 0.024768106639385223,
+                "energy_range": 0.1127844974398613,
+                "tempo": 112.34714673913044,
+                "onset_strength_mean": 1.9764798879623413,
+                "onset_strength_std": 2.404655933380127,
+                "speech_rate": 2.6916046142578125,
+                "pause_duration_mean": -0.0011907669050526166,
+                "pause_duration_std": 0.28795762382251366,
+                "pause_ratio": 1.7456946459426455
+            },
+            "emotions": [
+                "suspicious"
+            ],
+            "emotion_confidence": {
+                "suspicious": 4.364236614856614
+            }
+        },
+        "gemini_analysis": {
+            "verdict": "UNKNOWN",
+            "confidence": 0,
+            "explanation": "",
+            "red_flags": [],
+            "trust_indicators": [],
+            "recommendations": []
+        }
+    }
+}

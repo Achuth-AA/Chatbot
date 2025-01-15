@@ -1,0 +1,70 @@
+{
+    "id": "1eeeeb8f-7f63-4689-bc1a-13b3ee915b28",
+    "timestamp": "2025-01-09 20:28:19",
+    "filename": "AUD-20250103-WA0001_1.wav",
+    "final_verdict": "FRAUD",
+    "voice_authentication": {
+        "matched": "false",
+        "match_confidence": 67.24488067626953,
+        "matched_file": null
+    },
+    "ai_detection": {
+        "is_ai": "false",
+        "detailed_results": [
+            {
+                "score": 0.999983549118042,
+                "label": "real"
+            },
+            {
+                "score": 1.6446445442852564e-05,
+                "label": "fake"
+            }
+        ]
+    },
+    "playback_detection": {
+        "is_playback": "false",
+        "confidence": 0.0
+    },
+    "detailed_analysis": {
+        "transcription": "hi I'm from my address I just got a notice saying that your account is linked to suspicious activity related to your taxes I need to verify your banking details on the last five transactions on your account so I can clear things up immediately please provide me with the details for verification",
+        "tone_analysis": {
+            "features": {
+                "pitch_mean": 1357.1253662109375,
+                "pitch_std": 1200.8277587890625,
+                "pitch_range": 3853.73779296875,
+                "energy_mean": 0.019238390028476715,
+                "energy_std": 0.014077393338084221,
+                "energy_range": 0.05095396190881729,
+                "tempo": 161.4990234375,
+                "onset_strength_mean": 1.9842123985290527,
+                "onset_strength_std": 2.1384148597717285,
+                "speech_rate": 2.147379159927368,
+                "pause_duration_mean": 0.005358451072736803,
+                "pause_duration_std": 1.3038261431665283,
+                "pause_ratio": 0.8095116968802201
+            },
+            "emotions": [
+                "suspicious"
+            ],
+            "emotion_confidence": {
+                "suspicious": 2.02377924220055
+            }
+        },
+        "gemini_analysis": {
+            "verdict": "FRAUD",
+            "confidence": 95,
+            "explanation": "The conversation exhibits several red flags indicative of a scam or fraudulent activity:\n\n1. **Suspicious Activity:** The caller claims suspicious activity is linked to the recipient's account related to taxes, creating a sense of urgency and concern.\n\n2. **Immediate Verification Request:** The caller demands immediate verification of banking details for the last five transactions, which is an unusual request and could be an attempt to obtain sensitive financial information.\n\n3. **Caller's Identity:** The caller does not provide sufficient identification or affiliation with any known organization, raising doubts about their legitimacy.",
+            "red_flags": [
+                "Suspicious Activity Claim",
+                "Immediate Verification Request",
+                "Caller Identity Concealment"
+            ],
+            "trust_indicators": [],
+            "recommendations": [
+                "Do not provide any personal or financial information to the caller.",
+                "Contact your bank or financial institution directly to verify any suspicious activity.",
+                "Report the conversation to the relevant authorities or anti-fraud organizations."
+            ]
+        }
+    }
+}

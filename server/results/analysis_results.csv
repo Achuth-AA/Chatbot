@@ -1,0 +1,9 @@
+id,timestamp,filename,final_verdict,detailed_result_file
+81e3fe5f-0640-443d-986e-d69daa9f7e0b,2025-01-06 13:37:27,AI_3.wav,FRAUD,81e3fe5f-0640-443d-986e-d69daa9f7e0b.json
+861739b8-5bb0-4eab-9387-bb90e85413b5,2025-01-06 13:40:11,AI_3.wav,FRAUD,861739b8-5bb0-4eab-9387-bb90e85413b5.json
+405ece51-b135-4fd2-ba2c-d2f8786da630,2025-01-06 13:41:15,AI_3.wav,FRAUD,405ece51-b135-4fd2-ba2c-d2f8786da630.json
+b8dca03b-c4f0-4fe6-8c08-d304ef6818ff,2025-01-06 13:42:31,AI_3.wav,FRAUD,b8dca03b-c4f0-4fe6-8c08-d304ef6818ff.json
+8c3e6b25-3294-4427-a42e-a661c7c21aca,2025-01-06 15:14:22,AUD-20250103-WA0001_1.wav,FRAUD,8c3e6b25-3294-4427-a42e-a661c7c21aca.json
+143be3a4-d408-408a-b0f4-5b4243b785d1,2025-01-06 15:43:37,AI_2.wav,FRAUD,143be3a4-d408-408a-b0f4-5b4243b785d1.json
+9d307f64-3fb5-4b63-9a4c-3a9febbd6dd3,2025-01-06 15:51:52,AI_2.wav,FRAUD,9d307f64-3fb5-4b63-9a4c-3a9febbd6dd3.json
+a7e171e9-cfdb-4ba3-9dfe-e6a430f0c263,2025-01-06 15:53:30,playback.wav,FRAUD,a7e171e9-cfdb-4ba3-9dfe-e6a430f0c263.json

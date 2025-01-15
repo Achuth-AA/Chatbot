@@ -1,0 +1,58 @@
+{
+    "id": "c8f00ab4-7ccb-4e38-837a-bac8b1c38626",
+    "timestamp": "2025-01-09 10:23:20",
+    "filename": "playback.wav",
+    "final_verdict": "FRAUD",
+    "voice_authentication": {
+        "matched": "true",
+        "match_confidence": 82.0531005859375,
+        "matched_file": "PTT-20241226-WA0010.wav"
+    },
+    "ai_detection": {
+        "is_ai": "true",
+        "detailed_results": [
+            {
+                "score": 0.9999737739562988,
+                "label": "fake"
+            },
+            {
+                "score": 2.6208330382360145e-05,
+                "label": "real"
+            }
+        ]
+    },
+    "playback_detection": {
+        "is_playback": "false",
+        "confidence": 0.0
+    },
+    "detailed_analysis": {
+        "transcription": "hello I'm calling regarding my account ending in 4568 I urgently need help with the transaction I attempted earlier today it seems to have failed I was trying to transfer $50 but I didn't get any information with the authorization",
+        "tone_analysis": {
+            "features": {
+                "pitch_mean": 1164.7413330078125,
+                "pitch_std": 852.3189086914062,
+                "pitch_range": 3854.292724609375,
+                "energy_mean": 0.01272264588624239,
+                "energy_std": 0.026879126206040382,
+                "energy_range": 0.5222495794296265,
+                "tempo": 71.77734375,
+                "onset_strength_mean": 1.1153186559677124,
+                "onset_strength_std": 1.4829295873641968,
+                "speech_rate": 1.7825604677200317,
+                "pause_duration_mean": -0.16253968253968254,
+                "pause_duration_std": 0.0,
+                "pause_ratio": 0.04340888710834799
+            },
+            "emotions": [],
+            "emotion_confidence": {}
+        },
+        "gemini_analysis": {
+            "verdict": "GENUINE",
+            "confidence": 75,
+            "explanation": "The caller is likely genuine because there are no strong indicators of fraud or scam.",
+            "red_flags": [],
+            "trust_indicators": [],
+            "recommendations": []
+        }
+    }
+}
